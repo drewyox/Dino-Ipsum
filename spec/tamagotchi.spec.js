@@ -1,9 +1,9 @@
 import { Tama } from '../src/tamagotchi.js';
 
 describe('Tama', function() {
-  let winston = new Tama("Winston");
-
+let winston = new Tama("Winston");
   beforeEach(function() {
+    // let winston = new Tama("Winston");
     jasmine.clock().install();
     winston.setValueTimer("sportLevel", 2000);
     winston.setValueTimer("foodLevel", 1000);
