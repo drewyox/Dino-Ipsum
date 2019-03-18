@@ -1,15 +1,16 @@
 import { Tama } from '../src/tamagotchi.js';
 
 describe('Tama', function() {
-let winston = new Tama("Winston");
+  let winston;
   beforeEach(function() {
-    // let winston = new Tama("Winston");
+    winston = new Tama("Winston");
+
     jasmine.clock().install();
     winston.setValueTimer("sportLevel", 2000);
     winston.setValueTimer("foodLevel", 1000);
     console.log((winston.sportLevel + 'sport'), (winston.foodLevel + 'food') );
-    winston.setValue("sportLevel");
-    winston.setValue("foodLevel");
+    // winston.setValue("sportLevel");
+    // winston.setValue("foodLevel");
   });
 
   afterEach(function() {
