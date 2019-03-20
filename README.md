@@ -1,4 +1,4 @@
-## Galactic Age Calculator
+<!-- ## Galactic Age Calculator
 ---
 #### _Javascript practice, homework as assigned by Epicodus, 3/15/19_
 
@@ -48,4 +48,4 @@ This application still needs work before it can be considered complete. It still
 ### License
 
 *{This software is licensed under the MIT license}*
-Copyright (c) 2019 **_{Slater Smith}_**
+Copyright (c) 2019 **_{Slater Smith}_** -->
