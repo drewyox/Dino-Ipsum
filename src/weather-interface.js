@@ -11,7 +11,7 @@ $(document).ready(function() {
       let inputDino = inputNxt[input2];
       $('.showHumidity').text(`${inputNxt[input2]}`);
       // $('.showTemp').text(`The temperature in Kelvins is ${response} degrees.`);
-      console.log(response."0"[5]);
+      console.log(response.);
     }).fail(function(error) {
       $('.showErrors').text(`There was an error processing your request: ${error.responseText}. Please try again.`);
     });
